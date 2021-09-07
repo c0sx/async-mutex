@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "strict": true,
+        "target": "es2021",
+        "lib": ["es2020"],
+        "esModuleInterop": true,
+        "strictPropertyInitialization": false,
+        "skipLibCheck": true,
+        "outDir": "build",
+        "allowUnreachableCode": false,
+        "strictNullChecks": true,
+        "noImplicitOverride": true,
+    },
+    "exclude": ["./node_modules", "./coverage", "./**/*.js", "*.js"]
+}
